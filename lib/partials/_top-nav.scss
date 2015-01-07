@@ -1,0 +1,20 @@
+
+
+.admin-top-nav {
+	border-bottom: solid 1px #cdcdcd;
+	background-color: #CACACA;
+	padding: 15px 40px;
+
+	.title {
+		font-weight: 600;
+		font-size: 20px;
+
+		.breadcrumb {
+			padding: 0;
+			margin-bottom: 0;
+			list-style: none;
+			background-color: transparent;
+			border-radius: 0;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+#orion-admin {
+	@import "partials/layout";
+	@import "partials/sidebar";
+	@import "partials/navbar";
+	@import "partials/top-nav";
+	@import "partials/forms";
+	@import "partials/data-tables";
+  @import "partials/out-admin";
+  @import "partials/files";
+
+	font-family:'Source Sans Pro';
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: black;
+	background-position: center;
+	background-size: cover;
+	padding: 40px;
+
+}

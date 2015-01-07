@@ -1,0 +1,17 @@
+.form-group {
+	.input-container {
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+		border-bottom: 1px dashed #cdcdcd;
+	}
+}
+
+textarea.form-control {
+	height: auto;
+}
+
+.form-group:last-child {
+	.input-container {
+		border-bottom: 0px;
+	}
+}

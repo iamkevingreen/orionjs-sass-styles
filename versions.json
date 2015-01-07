@@ -1,8 +1,8 @@
 {
   "dependencies": [
     [
-      "less",
-      "1.0.11"
+      "fourseven:scss",
+      "1.0.0"
     ],
     [
       "meteor",
