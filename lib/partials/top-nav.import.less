@@ -1,0 +1,20 @@
+@background-color: lighten(@gray-lighter, 5%);
+
+.admin-top-nav {
+	border-bottom: solid 1px @navbar-default-border;
+	background-color: @background-color;
+	padding: 15px 40px;
+
+	.title {
+		font-weight: @headings-font-weight;
+		font-size: 20px;
+
+		.breadcrumb {
+			padding: 0;
+			margin-bottom: 0;
+			list-style: none;
+			background-color: transparent;
+			border-radius: 0;
+		}
+	}
+}

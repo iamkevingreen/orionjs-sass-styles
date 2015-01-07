@@ -1,0 +1,37 @@
+.adminFilesIndexFolder, 
+.adminFilesIndexFile {
+	.icon {
+		color: @gray-light;
+		font-size: 60px;
+		margin-bottom: 5px;
+		border-radius: 5px;
+	}
+	.name {
+		white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow:ellipsis;
+	    border-radius: 5px;
+	}
+
+	&:hover {
+		text-decoration: none;
+		.icon {
+			background-color: @gray-lighter;
+		}
+		.name {
+			background-color: @brand-primary;
+			color: #fff;
+		}
+	}
+
+	padding: 10px 2px 0px 2px;
+	display: inline-block;
+	text-align: center;
+	color: #333;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 100px;
+	text-decoration: none;
+
+	
+}
