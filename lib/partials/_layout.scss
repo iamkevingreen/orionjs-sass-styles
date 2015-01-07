@@ -15,3 +15,14 @@
 .admin-content-less-padding {
 	padding-top: 20px;
 }
+
+.row {
+	.col-md-2 {
+		width: 15%;
+		float: left;
+	}
+	.col-md-10 {
+		width: 85%;
+		float: left;
+	}
+}

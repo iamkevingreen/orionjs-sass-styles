@@ -1,0 +1,6 @@
+[submodule "bourbon"]
+	path = bourbon
+	url = https://github.com/thoughtbot/bourbon
+[submodule "bitters"]
+	path = bitters
+	url = https://github.com/thoughtbot/bitters
