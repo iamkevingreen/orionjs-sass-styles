@@ -1,27 +1,14 @@
-Orion Styles
+Orion Styles - SASS|Bourbon|Bitters
 ============
 
 ```
-orionjs:styles
+iamkevingreen:orionjs-sass-styles
 ```
+This is a fork of the original OrionJS Styles for Meteor. I wanted to use SASS and not include bootstrap because I think its
+big and bulky, however the bulk of the OrionJS admin is written in a way toward Bootstrap so some additional custom
+styles were needed.
 
-Here are all the styles for the orion admin. 
+Here are all the styles for the orion admin.
 
-*This package is optional*.
-
-**If you wan't to have custom styles for your admin, follow this instructions:**
-
-- Clone the repository to ```yourapp/packages/orionjs:styles```
-
-- Remove the git file by doing ```rm -rf .git``` on the styles folder
-
-- Edit the files!
-
-> Meteor will not read automatically any changes on the files exept for ```global.less```. 
-> If you have made any changes to another file, change the ```global.less``` and the styles will update.
 
 ## Screenshots
-
-![alt tag](http://i.imgur.com/eFEQ5lT.jpg)
-![alt tag](http://i.imgur.com/eNMaaje.png)
-![alt tag](http://i.imgur.com/Rl3Mpvi.jpg)
