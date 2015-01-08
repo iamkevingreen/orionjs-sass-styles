@@ -5,6 +5,7 @@
 #orion-admin {
 	@import "partials/base";
 	@import "partials/bootstrap-grid";
+	@import "partials/summernote";
 	@import "partials/layout";
 	@import "partials/sidebar";
 	@import "partials/navbar";
@@ -25,7 +26,6 @@
 	background-size: cover;
 	background-image: url('https://farm9.staticflickr.com/8442/7802210432_52422c45a3_h.jpg');
 	padding: 40px;
-	
 	color: #232323;
 }
 

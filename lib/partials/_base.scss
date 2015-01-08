@@ -15,6 +15,8 @@
 .container-fluid:before,
 .container-fluid:after,
 .row:before,
+.btn-toolbar:before,
+.btn-toolbar:after,
 .row:after {
   content: " ";
   display: table;
@@ -22,6 +24,7 @@
 .clearfix:after,
 .container:after,
 .container-fluid:after,
+.btn-toolbar:after,
 .form-group:after,
 .row:after {
   clear: both;
