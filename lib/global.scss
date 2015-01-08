@@ -3,9 +3,12 @@
 @import "../bitters/app/assets/stylesheets/base";
 
 #orion-admin {
+	@import "partials/base";
+	@import "partials/bootstrap-grid";
 	@import "partials/layout";
 	@import "partials/sidebar";
 	@import "partials/navbar";
+	@import "partials/buttons";
 	@import "partials/top-nav";
 	@import "partials/forms";
 	@import "partials/data-tables";
@@ -13,12 +16,20 @@
   @import "partials/files";
 
 	font-family:'Source Sans Pro';
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  background-color: #000;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #000;
 	background-position: center;
 	background-size: cover;
+	background-image: url('https://farm9.staticflickr.com/8442/7802210432_52422c45a3_h.jpg');
 	padding: 40px;
+	
+	color: #232323;
+}
+
+body {
+	margin: 0 0;
+	padding: 0 0;
 }

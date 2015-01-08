@@ -1,8 +1,8 @@
 .form-group {
+	padding: 10px 0;
 	.input-container {
 		padding-bottom: 15px;
 		margin-bottom: 10px;
-		border-bottom: 1px dashed #cdcdcd;
 	}
 }
 
@@ -14,4 +14,9 @@ textarea.form-control {
 	.input-container {
 		border-bottom: 0px;
 	}
+}
+input,
+textarea {
+	border-radius: 0px;
+	box-shadow: none;
 }

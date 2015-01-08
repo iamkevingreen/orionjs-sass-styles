@@ -11,4 +11,8 @@ styles were needed.
 Here are all the styles for the orion admin.
 
 
-## Screenshots
+## Usage
+
+Currently this package has two submodules bitters and bourbon, will most likely add neat as well, I have included the bootstrap grid css as well
+because the grid columns are used all over the place in the admin and it just made more sense to use that
+grid instead of recoding all the possible options.
