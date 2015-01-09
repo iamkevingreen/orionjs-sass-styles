@@ -20,3 +20,17 @@ textarea {
 	border-radius: 0px;
 	box-shadow: none;
 }
+.panel-default {
+	.list-group {
+		border: 1px solid #ddd;
+		padding: 4px;
+	}
+}
+.autoform-remove-item:before {
+	content: '-';
+	font-size: 20px;
+}
+.autoform-add-item:before {
+	content: '+';
+	font-size:20px;
+}

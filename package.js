@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'iamkevingreen:orionjs-sass-styles',
 	summary: 'Styles for orionjs admin with sass',
-	version: '0.1.3',
+	version: '0.1.4',
 	git: 'https://github.com/iamkevingreen/orionjs-sass-styles'
 });
 
